@@ -93,6 +93,10 @@ body{
   padding: 20px;
 }
 
+#film{
+  height: 100%
+}
+
 #film tr td img{
   width: 80%;
 }
