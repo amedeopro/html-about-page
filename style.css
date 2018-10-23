@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -14,4 +14,102 @@ body{
   height: 800px;
   background: rgba(175, 175, 175, 0.1);
   margin: 20px auto;
+  padding: 15px;
+}
+
+.box-left, .box-right{
+  background: white;
+  border-radius: 5px;
+  height: 500px;
+  float: left;
+  box-shadow: 1px 2px 3px grey;
+
+}
+
+.box-left{
+  width: 35%;
+  margin-right: 5%;
+  height: 350px;
+}
+
+.box-right{
+  width: 60%;
+}
+
+.box-left-content, .box-right{
+  padding: 20px;
+}
+
+.box-left-content h1{
+  text-align: center;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.box-left-content span{
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.box-left-content p{
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.box-left-content a{
+  width: 51%;
+  display: block;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  background: #DD5555;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.box-left-content a:hover{
+  background: red;
+}
+
+.box-left-content img{
+  display: block;
+  border-radius: 100%;
+  width: 30%;
+  margin: auto;
+  border: 3px solid lightgrey;
+}
+
+.box-left-bottom-content{
+  margin-top: 30px;
+  width: 100%;
+  margin-right: 5%;
+  height: 120px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px grey;
+  padding: 20px;
+}
+
+#film tr td img{
+  width: 80%;
+}
+
+.box-right::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footer{
+  margin-top: 60px;
+  width: 100%;
+  margin-right: 5%;
+  height: 200px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px grey;
+  float: left;
 }
