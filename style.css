@@ -7,6 +7,7 @@
 
 body{
   background: #EBEBEB;
+  color: #7d7d7d;
 }
 
 .container{
@@ -91,6 +92,28 @@ body{
   border-radius: 5px;
   box-shadow: 1px 2px 3px grey;
   padding: 20px;
+  text-align: center;
+}
+
+.box-left-bottom-content ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.box-left-bottom-content a{
+  text-decoration: none;
+  color: #7d7d7d;
+}
+
+.box-left-bottom-content a:hover{
+  color: red;
+}
+
+.box-left-bottom-content i{
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 #film{
